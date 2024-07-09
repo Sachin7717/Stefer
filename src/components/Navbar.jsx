@@ -1,19 +1,30 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 
 function Navbar() {
   return (
-    
-    
+    <div id='main'>
       <nav>
-        <ul className='w-full flex justify-center cursor-pointer'>
-          <li className="link">Home</li>
-          <li className="link">Contact us</li>
-          <li className="link">Chats</li>
-          <li className="link">Community</li>
-          <li className="link">Profile</li>
+        <ul>
+          <li>
+            <NavLink to="/Home" className="link">Home</NavLink>
+          </li>
+          <li>
+            <NavLink to="/Contact" className="link">Contact Us</NavLink>
+          </li>
+          <li>
+            <NavLink to="/Chats" className="link">Chats</NavLink>
+          </li>
+          <li>
+            <NavLink to="/Community" className="link">Community</NavLink>
+          </li>
+          <li>
+            <NavLink to="/Profile" className="link">Profile</NavLink>
+          </li>
+        
         </ul>
       </nav>
-    
+    </div>
   );
 }
 
