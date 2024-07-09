@@ -2,7 +2,7 @@ import React from 'react'
 
 function Community() {
   return (
-    <div>
+    <div className='w-screen'>
       this is community page
     </div>
   )

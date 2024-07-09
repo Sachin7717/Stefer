@@ -9,18 +9,22 @@ import Contact from './components/Contact.jsx'
 import Chats from './components/Chats.jsx'
 import Community from './components/Community.jsx'
 import Profile from './components/Profile.jsx'
+import Hero from './components/Hero.jsx'
 
 const router = createBrowserRouter(
   createRoutesFromElements(
    
-    <Route path='Home' element={< Home/>}>
-    <Route path='Contact' element= {<Contact/>}/>
-    <Route path='Chats' element= {<Chats/>}/>
-    <Route path='Community' element= {<Community/>}/>
-    <Route path='Profile' element= {<Profile/>}/>
+    <Route path='/' element={< App/>} >
+
+    <Route path='/' element={<Hero/>}/>
+    <Route path='/home' element={<Hero/>}/>
+    <Route path='/Contact' element= {<Contact/>}/>
+    <Route path='/Chats' element= {<Chats/>}/>
+    <Route path='/Community' element= {<Community/>}/>
+    <Route path='/Profile' element= {<Profile/>}/>
+    </Route>
     
     
-    </Route> 
   )
 )
 
