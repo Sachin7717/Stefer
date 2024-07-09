@@ -1,6 +1,5 @@
 @tailwind base;
 @tailwind components;
-<<<<<<< HEAD
 @tailwind utilities;
 
 *,
@@ -18,13 +17,13 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: hsl(0, 0%, 8%);
+  /* background: hsl(0, 0%, 8%); */
 }
 
 ul {
-  display: flex;
   gap: 1rem;
   list-style: none;
+  position: absolute;
 }
 
 .link {
@@ -61,6 +60,4 @@ ul {
 .link:hover::after {
   transform: scaleX(1);
 }
-=======
 @tailwind utilities;
->>>>>>> sky

@@ -3,9 +3,9 @@ import React from 'react';
 function Navbar() {
   return (
     
-    <div id='main'>
+    
       <nav>
-        <ul>
+        <ul className='w-full flex justify-center cursor-pointer'>
           <li className="link">Home</li>
           <li className="link">Contact us</li>
           <li className="link">Chats</li>
@@ -13,7 +13,7 @@ function Navbar() {
           <li className="link">Profile</li>
         </ul>
       </nav>
-    </div>
+    
   );
 }
 
