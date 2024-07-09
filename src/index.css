@@ -1,5 +1,6 @@
 @tailwind base;
 @tailwind components;
+<<<<<<< HEAD
 @tailwind utilities;
 
 *,
@@ -60,3 +61,6 @@ ul {
 .link:hover::after {
   transform: scaleX(1);
 }
+=======
+@tailwind utilities;
+>>>>>>> sky
