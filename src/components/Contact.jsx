@@ -2,10 +2,14 @@ import React from 'react'
 
 function Contact() {
   return (
+    <main>
     <div className='w-screen'>
-        this is contact page
+        <h1>Contact us</h1>
+        your email
+        <input type="text"  placeholder='Enter your email' />
       
     </div>
+    </main>
   )
 }
 

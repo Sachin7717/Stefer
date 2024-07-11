@@ -10,6 +10,7 @@ import Chats from './components/Chats.jsx'
 import Community from './components/Community.jsx'
 import Profile from './components/Profile.jsx'
 import Hero from './components/Hero.jsx'
+import Login from './components/Login.jsx'
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -22,6 +23,8 @@ const router = createBrowserRouter(
     <Route path='/Chats' element= {<Chats/>}/>
     <Route path='/Community' element= {<Community/>}/>
     <Route path='/Profile' element= {<Profile/>}/>
+    <Route path='/Login' element= {<Login/>}/>
+   
     </Route>
     
     
