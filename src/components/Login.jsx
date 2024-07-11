@@ -3,9 +3,10 @@ import './Login.css'
 
 function Login() {
   return (
-    <div className="section">
-    <div className="container">
-      <div className="row full-height justify-content-center">
+    <div className="login ">
+    <div className="section relative w-screen">
+    <div className="container absolute -top-72">
+      <div className="row justify-content-center">
         <div className="col-12 text-center align-self-center py-5">
           <div className="section pb-5 pt-5 pt-sm-2 text-center">
             <h6 className="mb-0 pb-3">
@@ -51,7 +52,7 @@ function Login() {
                         submit
                       </a>
                       <p className="mb-0 mt-4 text-center">
-                        <a href="#0" className="link">
+                        <a href="#0" className="login-link">
                           Forgot your password?
                         </a>
                       </p>
@@ -107,6 +108,7 @@ function Login() {
         </div>
       </div>
     </div>
+  </div>
   </div>
   
   )

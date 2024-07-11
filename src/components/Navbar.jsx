@@ -5,7 +5,7 @@ function Navbar() {
   return (
     <div id='main'>
       <nav>
-        <ul className='flex w-full justify-center items-center top-3 text-black' >
+        <ul className='flex w-full justify-center items-center top-3 text-black ' >
           <li>
             <NavLink to="/Home" className="link">Home</NavLink>
           </li>
