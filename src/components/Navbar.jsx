@@ -3,9 +3,9 @@ import { NavLink } from 'react-router-dom';
 
 function Navbar() {
   return (
-    <div id='main'>
+    <div id='main' className=''>
       <nav>
-        <ul className='flex w-full justify-center items-center top-3 text-black ' >
+        <ul className='flex w-full justify-center items-center top-6 text-black ' >
           <li>
             <NavLink to="/Home" className="link">Home</NavLink>
           </li>
